@@ -36,11 +36,8 @@ function createPromises(delay, step, amount) {
       });
     delay += step;
   }
-  
-  return;
+return;
 }
-
-
 refs.btn.addEventListener('submit', evt => {
   evt.preventDefault();
   let delay = Number(refs.delay.value);
