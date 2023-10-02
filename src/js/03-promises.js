@@ -36,8 +36,10 @@ function createPromises(delay, step, amount) {
       });
     delay += step;
   }
+  
   return;
 }
+
 
 refs.btn.addEventListener('submit', evt => {
   evt.preventDefault();
