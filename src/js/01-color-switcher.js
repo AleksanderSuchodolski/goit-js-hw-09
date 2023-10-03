@@ -21,7 +21,6 @@ function getRandomHexColor() {
       refs.body.style.backgroundColor = bgColor;
     }, 1000);
   };
-  
   const clickStop = () => {
     refs.startBtn.removeAttribute('disabled', '');
     refs.stopBtn.setAttribute('disabled', '');
